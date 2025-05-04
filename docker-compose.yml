@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  loccountant:
+    build: .
+    container_name: loccountant
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=production
