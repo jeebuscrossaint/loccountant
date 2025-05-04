@@ -27,3 +27,5 @@ npm install
 # Start the application
 npm start
 ```
+
+just a simple (and kinda garbo) application to count lines of code on any given github account. it is basically like super wrong but i dont really care i just made it in like 1 hour vibe code
